@@ -1,8 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./App.css";
-import { PokemonThumbnails } from "./components/pokemonThumbnails";
-import { PokemonFilter } from "./components/pokemonTypeFilter";
+import { PokemonThumbnails } from "./pokemonThumbnails";
+import { PokemonFilter } from "./pokemonTypeFilter";
 
 export default function App() {
   const [allPokemons, setAllPokemons] = useState([]);
