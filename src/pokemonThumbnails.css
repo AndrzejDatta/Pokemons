@@ -1,0 +1,99 @@
+.thumbnailContainer {
+  position: relative;
+  width: 36vw;
+  height: 25vw;
+  background-color: grey;
+  border-radius: 8px;
+  margin-top: 3vw;
+  color: white;
+  transition: 0.5s;
+}
+
+.detailWrapper {
+  position: absolute;
+  left: 6%;
+  top: 6%;
+}
+
+.type {
+  background-color: hsla(0, 0%, 100%, 0.4);
+  border-radius: 10px;
+  padding: 3px 6px;
+  margin-top: 10%;
+  display: inline-block;
+}
+
+img {
+  width: 15vw;
+  height: 15vw;
+  position: absolute;
+  right: 2%;
+  bottom: 2%;
+}
+
+.clicked {
+  width: 75vw;
+  height: 50vw;
+  transition: 0.5s;
+}
+
+.extendedDetails {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition-delay: 0.6s;
+}
+
+.visable {
+  visibility: visible;
+}
+
+.grass {
+  background-color: #49b04d;
+}
+
+.fire {
+  background-color: #f24333;
+}
+
+.water {
+  background-color: #1e96f0;
+}
+
+.bug {
+  background-color: #a8b820;
+}
+
+.normal {
+  background-color: #a8b878;
+}
+
+.poison {
+  background-color: #a040a0;
+}
+
+.electric {
+  background-color: #f8d030;
+}
+
+.fairy {
+  background-color: #ee99ac;
+}
+
+.ground {
+  background-color: #e0c068;
+}
+
+@media (min-width: 600px) {
+  .thumbnailContainer {
+    width: 18vw;
+    margin-top: 1.5vw;
+  }
+
+  .clicked {
+    width: calc(75vw / 2);
+    height: 25vw;
+  }
+}
